@@ -52,7 +52,6 @@ COMMENT ON TABLE smart_health.municipalities IS 'Catálogo de municipios o ciuda
 COMMENT ON COLUMN smart_health.municipalities.municipality_code IS 'Código único del municipio';
 COMMENT ON COLUMN smart_health.municipalities.municipality_name IS 'Nombre completo del municipio';
 COMMENT ON COLUMN smart_health.municipalities.department_code IS 'Código del departamento al que pertenece';
-
 -- Table: addresses
 -- Brief: Reusable physical addresses for patients and doctors
 CREATE TABLE IF NOT EXISTS smart_health.addresses (
